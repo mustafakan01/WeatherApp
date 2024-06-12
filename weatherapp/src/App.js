@@ -1,17 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
-import Form from './components/Form';
-import {Info} from './components/Info';
+import Weather from './components/weather.jsx';
+import './components/style.css'
 
-
-
-function App() {
-  return (
-    <div className="App">
-      <Form></Form>
-      <Info></Info>
-    </div>
-  );
+export default function App() {
+    return (
+        <div>
+            <Weather />
+        </div>
+    )
 }
-
-export default App;
